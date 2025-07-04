@@ -1,0 +1,12 @@
+{
+  "ConnectionStrings": {
+    "DefaultConnectionStringDB": "server =(local); database=SU25ResearchDB; uid=sa; pwd=12345; TrustServerCertificate=True"
+  }
+}
+
+
+
+
+
+//dotnet ef dbcontext scaffold "Server=(local);uid=sa;pwd=12345;database=SU25ResearchDB;TrustServerCertificate=True" Microsoft.EntityFrameworkCore.SqlServer --output-dir Models --force
+
